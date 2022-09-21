@@ -1,0 +1,43 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  text-align: center;
+  background: #eee;
+  height: 100vh;
+}
+
+form {
+  max-width: 400px;
+  background-color: white;
+  padding: 2rem;
+}
+
+input {
+  display: block;
+  margin: 5px auto;
+  padding: 0.5rem;
+  width: 100%;
+  border-radius: 5px;
+  outline-color: #8794ce;
+}
+
+.errormessage,
+.rightmessage {
+  display: none;
+}
+
+button {
+  padding: 10px;
+  width: 100px;
+  border: none;
+  margin-top: 0.5rem;
+  background: #969292;
+  color: white;
+}
